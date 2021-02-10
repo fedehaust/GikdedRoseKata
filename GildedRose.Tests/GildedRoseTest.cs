@@ -21,9 +21,9 @@ namespace GildedRoseKata.Tests
         [Fact]
         public void Sulfuras()
         {
-            Item item = StandardItemFactory.CreateItem("Sulfuras, Hand of Ragnaros",0,80);
+            Item item = SulfurasItemFactory.CreateItem(0);
             new GildedRose().UpdateQualityAndSellIn(item);
-            item.Name.Should().BeEquivalentTo("Sulfuras, Hand of Ragnaros");
+            item.Name.Should().Be("Sulfuras, Hand of Ragnaros");
             item.Quality.Should().Be(80);
             item.SellIn.Should().Be(0);
         }
@@ -31,9 +31,9 @@ namespace GildedRoseKata.Tests
         [Fact]
         public void Conjured()
         {
-            Item item = StandardItemFactory.CreateItem("Conjured Mana Cake", 3, 6);
+            Item item = ConjuredItemFactory.CreateItem( 3, 6);
             new GildedRose().UpdateQualityAndSellIn(item);
-            item.Name.Should().BeEquivalentTo("Conjured Mana Cake");
+            item.Name.Should().Be("Conjured Mana Cake");
             item.Quality.Should().Be(4);
             item.SellIn.Should().Be(2);
         }
@@ -41,9 +41,9 @@ namespace GildedRoseKata.Tests
         [Fact]
         public void Backstage()
         {
-            Item item = StandardItemFactory.CreateItem("Backstage passes to a TAFKAL80ETC concert", 5, 48);
+            Item item = BackstagePassItemFactory.CreateItem(5, 48);
             new GildedRose().UpdateQualityAndSellIn(item);
-            item.Name.Should().BeEquivalentTo("Backstage passes to a TAFKAL80ETC concert");
+            item.Name.Should().Be("Backstage passes to a TAFKAL80ETC concert");
             item.Quality.Should().Be(50);
             item.SellIn.Should().Be(4);
         }

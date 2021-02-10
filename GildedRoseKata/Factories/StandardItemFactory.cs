@@ -9,10 +9,10 @@ namespace GildedRoseKata.Factories
         {
             return name switch
             {
-                "Aged Brie" => new AgedBrieItem(sellIn, quality),
-                "Backstage passes to a TAFKAL80ETC concert" => new BackstagePassItem(sellIn, quality),
-                "Conjured Mana Cake" => new ConjuredItem(sellIn, quality),
-                "Sulfuras, Hand of Ragnaros" => new SulfurasItem(sellIn),
+                AgedBrieItem.PrefixedName => throw new ArgumentException($"You must to use a {nameof(AgedBrieItem)}"),
+                BackstagePassItem.PrefixedName => throw new ArgumentException($"You must to use a {nameof(BackstagePassItem)}"),
+                ConjuredItem.PrefixedName => throw new ArgumentException($"You must to use a {nameof(ConjuredItem)}"),
+                SulfurasItem.PrefixedName => throw new ArgumentException($"You must to use a {nameof(SulfurasItem)}"),
                 _ => new ItemWrap(name, sellIn, quality),
             };
         }
