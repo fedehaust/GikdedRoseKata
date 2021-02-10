@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{D971FD06-AF2B-441B-820D-0331065233A7}|Default">
+  <MonoDevelop.Ide.ItemProperties.GildedRoseKata PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GildedRoseKata/Program.cs">
+    <Files>
+      <File FileName="GildedRoseKata/GildedRoseRequirements.txt" Line="1" Column="1" />
+      <File FileName="GildedRoseKata/Strategies/IUpdaterStrategy.cs" />
+      <File FileName="GildedRoseKata/Program.cs" Line="18" Column="50" />
+      <File FileName="GildedRoseKata/Strategies/GildedRose.cs" />
+      <File FileName="GildedRose.Tests/GildedRoseTest.cs" />
+      <File FileName="GildedRoseKata/Strategies/BackstageItemStrategy.cs" />
+      <File FileName="GildedRoseKata/Strategies/AgedBrieItemStrategy.cs" />
+      <File FileName="GildedRoseKata/Strategies/ConjureItemStrategy.cs" />
+      <File FileName="GildedRoseKata/Strategies/SulfurasItemStrategy.cs" />
+      <File FileName="GildedRoseKata/Entities/SulfurasItem.cs" />
+      <File FileName="GildedRoseKata/Factories/StandardItemFactory.cs" />
+      <File FileName="GildedRoseKata/Factories/SulfurasItemFactory.cs" Line="7" Column="44" />
+      <File FileName="GildedRoseKata/AppSetting.json" />
+      <File FileName="GildedRose.Tests/ApprovalTest.ThirtyDays.approved.txt" />
+      <File FileName="GildedRoseKata/Factories/AgedBrieItemFactory.cs" />
+      <File FileName="GildedRoseKata/Factories/BackstagePassItemFactory.cs" />
+      <File FileName="GildedRoseKata/Factories/ConjuredItemFactory.cs" />
+      <File FileName="GildedRoseKata/Entities/ConjureItem.cs" />
+      <File FileName="GildedRoseKata/Entities/BackstagePassItem.cs" />
+      <File FileName="GildedRoseKata/Entities/AgedBrieItem.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GildedRoseKata" expanded="True">
+            <Node name="GildedRose.Tests" expanded="True" />
+            <Node name="GildedRoseKata" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Factories" expanded="True" />
+              <Node name="Strategies" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/fedehaust/PTY_Repos/Study_PTY/csharpcore/GildedRoseKata/Program.cs" relfile="GildedRoseKata/Program.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GildedRose.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

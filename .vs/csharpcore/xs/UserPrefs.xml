@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A445914F-8DC1-448D-9880-855B23C607C6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GildedRoseKata/Program.cs">
+    <Files>
+      <File FileName="GildedRose.Tests/GildedRose.Tests.csproj" Line="1" Column="1" />
+      <File FileName="GildedRose.Tests/GildedRoseTest.cs" />
+      <File FileName="GildedRose.Tests/ApprovalTest.cs" />
+      <File FileName="GildedRoseKata/Program.cs" Line="14" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="csharpcore" expanded="True">
+            <Node name="GildedRoseKata" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GildedRose.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
